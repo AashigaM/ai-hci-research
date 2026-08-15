@@ -6,7 +6,6 @@ Google Colab Notebook: https://colab.research.google.com/drive/1XFNCMGXhpy8edmgs
 ---
 
 ### Project Overview
-
 This project was built as an empirical computational analysis exploring adolescent usage patterns and behavioral intentions surrounding generative artificial intelligence tools. Utilizing survey microdata (N = 336), the project evaluates how structural factors like Perceived Usefulness (PU), Perceived Ease of Use (PEOU), Self-Efficacy (SE), and Social Influence (SN) impact high school students' intentions to adopt conversational AI for learning. The primary technical focus was on executing an automated data engineering pipeline, performing Ordinary Least Squares (OLS) multivariable regression modeling, and generating publication-ready statistical data visualizations.
 
 ### Key Technical Skills Demonstrated
