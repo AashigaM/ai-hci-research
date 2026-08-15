@@ -1,23 +1,116 @@
 # ai-hci-research
 
-**Adolescent Human-AI Interaction & Behavioral Intentions Framework**
-Google Colab Notebook: https://colab.research.google.com/drive/1XFNCMGXhpy8edmgsFX3Wv7HSs7qMxYRB?usp=sharing
+## Adolescent Human-AI Interaction & Behavioral Intentions Framework
+
+**Google Colab Notebook:**  
+https://colab.research.google.com/drive/1XFNCMGXhpy8edmgsFX3Wv7HSs7qMxYRB?usp=sharing
 
 ---
 
-### Project Overview
-This project was built as an empirical computational analysis exploring adolescent usage patterns and behavioral intentions surrounding generative artificial intelligence tools. Utilizing survey microdata (N = 336), the project evaluates how structural factors like Perceived Usefulness (PU), Perceived Ease of Use (PEOU), Self-Efficacy (SE), and Social Influence (SN) impact high school students' intentions to adopt conversational AI for learning. The primary technical focus was on executing an automated data engineering pipeline, performing Ordinary Least Squares (OLS) multivariable regression modeling, and generating publication-ready statistical data visualizations.
+## Project Overview
 
-### Key Technical Skills Demonstrated
+This project is an independent computational HCI study exploring how high school students perceive and intend to use generative AI tools for learning.
 
-**Data Engineering & Feature Extraction:** Engineered custom data ingestion scripts in Python using Pandas to aggregate multi-item Technology Acceptance Model (TAM) construct indicators into composite scale metrics.
+Using survey microdata from 336 participants, I analyzed several factors related to technology adoption, including Perceived Usefulness (PU), Perceived Ease of Use (PEOU), Self-Efficacy (SE), and Social Influence (SN).
 
-**Inferential Statistical Modeling:** Specified multivariable OLS regression models using Statsmodels to isolate key behavioural predictors (beta coefficients) and quantify variance explained (R-squared) across construct scales.
+The main goal was to understand which factors are most strongly associated with students' intentions to use conversational AI for learning.
 
-**Publication-Quality Data Visualization:** Formatted custom statistical plots using Matplotlib and Seaborn, including construct correlation heatmaps, regression trend lines with confidence intervals, and effect size error bar charts.
+I also built a Python-based data analysis pipeline to clean the survey data, create composite variables, run statistical models, and visualize the results.
 
-### Author & Research Details
+---
+
+## Research Focus
+
+This project focuses on the intersection of:
+
+- Human-Computer Interaction (HCI)
+- Generative AI
+- Technology adoption
+- Data science
+- Statistical modeling
+- Educational technology
+
+The analysis is based on the Technology Acceptance Model (TAM) and related technology-adoption concepts.
+
+---
+
+## Technical Methods
+
+### Data Processing
+
+I used Python and Pandas to:
+
+- Import and inspect the survey dataset
+- Clean and organize the data
+- Combine multi-item survey questions into composite variables
+- Check the structure and quality of the data
+- Prepare the dataset for statistical analysis
+
+### Statistical Analysis
+
+I used Statsmodels to perform multivariable Ordinary Least Squares (OLS) regression.
+
+The regression models were used to examine how factors such as perceived usefulness, ease of use, self-efficacy, and social influence were associated with students' behavioral intentions to use generative AI for learning.
+
+The analysis included:
+
+- Regression coefficients
+- Statistical significance
+- Confidence intervals
+- R-squared
+- Correlation analysis
+
+### Data Visualization
+
+I used Matplotlib and Seaborn to create visualizations including:
+
+- Correlation heatmaps
+- Regression plots
+- Confidence intervals
+- Effect-size visualizations
+- Distribution plots
+
+---
+
+## Key Findings
+
+The main findings from the statistical analysis are presented in the accompanying Google Colab notebook.
+
+The analysis focuses on identifying which technology-adoption factors have the strongest relationship with students' intentions to use generative AI for learning.
+
+*This section will be updated with the final statistical results after the analysis and interpretation are complete.*
+
+---
+
+## Reproducibility
+
+The analysis was developed in Python using Google Colab.
+
+Main libraries include:
+
+- Pandas
+- NumPy
+- Statsmodels
+- Matplotlib
+- Seaborn
+
+The notebook contains the data-processing, statistical-analysis, and visualization steps used in the project.
+
+---
+
+## Limitations
+
+This study uses observational survey data, so the results describe statistical associations rather than causal relationships.
+
+The sample may also not represent all high school students, depending on how the original survey participants were recruited.
+
+Because the study relies on self-reported responses, the results may also be affected by reporting or response bias.
+
+---
+
+## Author & Research Details
 
 **Researcher:** Aashiga Moorthy  
-**Project Type:** Independent Data Science & HCI Research (Summer 2026)  
+**Project Type:** Independent Data Science & HCI Research  
+**Year:** Summer 2026  
 **Intended Major:** Computer Science
