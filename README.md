@@ -6,7 +6,7 @@
 https://colab.research.google.com/drive/1XFNCMGXhpy8edmgsFX3Wv7HSs7qMxYRB?usp=sharing
 
 **Final Research Paper:**  
-[Aashiga_Moorthy_Generative_AI_HCI_Research.pdf](./Aashiga_Moorthy_Generative_AI_HCI_Research.pdf)
+[📄 Download Full PDF Paper](./Aashiga_Moorthy_Generative_AI_HCI_Research.pdf)
 
 ---
 
